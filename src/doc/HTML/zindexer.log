@@ -1,0 +1,104 @@
+02|06/25/09 16:00:59|Config file loaded: c:\dev\prj\goniat-online\trunk\doc\html\goniat-online.zcfg
+10|06/25/09 16:01:00|Start indexing (offline mode) at Thu Jun 25 16:01:00 2009
+02|06/25/09 16:01:00|Maximum number of words: 500000
+02|06/25/09 16:01:00|Maximum number of files: 65500
+02|06/25/09 16:01:00|Will scan files with extensions
+02|06/25/09 16:01:00|     .htm
+02|06/25/09 16:01:00|Search root directory: c:\dev\prj\goniat-online\trunk\doc\html
+02|06/25/09 16:01:00|Web site URL: ./
+02|06/25/09 16:01:00|Estimated RAM required during index process: 659339 KB
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\.htaccess (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\browse_geographical_hierarchy.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\browse_loc.png (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\browse_tax.png (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\browse_taxonomical_hierarchy.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_home_h.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_home_n.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_next_d.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_next_h.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_next_n.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_prev_d.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_prev_h.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\btn_prev_n.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\button_closedbook.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\button_openbook.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\button_topic.gif (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\chapter_2.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\cicon9.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\cicon_loadindex_ani.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\custom.css (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\default.css (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\flag_green.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online.zcfg (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online.zlang (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_content_dyn.html (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_content_static.html (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_ftsearch.html (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_kwindex_dyn.html (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_kwindex_static.html (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_navigation.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\goniat-online_popup_html.js (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\goniat_online_home_page.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\header_bg.jpg (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\header_bg_shadow.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\helpman_topicinit.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\highlight.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\icon_plus.png (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\index.html (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\introduction.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\lines.gif (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\literature_record.htm
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\literature_search_result.htm
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\localities_search_result.htm
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\locality_record.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\nsh.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\print1.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\print2.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\prod_tip.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\search_tax.png (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\search_tax_sel.png (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\search_tax_sel2.png (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\settings.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\spacer.gif (Blocked by extensions list)
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\taxa_search_result.htm
+00|06/25/09 16:01:01|Indexing c:\dev\prj\goniat-online\trunk\doc\html\taxon_record.htm
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\tog_minus.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\tog_plus.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\up.gif (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zindexer.log (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zoom_index.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zoom_pagedata.tmp (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zoom_pageinfo.js (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zoom_pageinfo.tmp (Blocked by extensions list)
+01|06/25/09 16:01:01|Skipping c:\dev\prj\goniat-online\trunk\doc\html\zoom_search.js (Blocked by extensions list)
+03|06/25/09 16:01:01|All index files will be written to: c:\dev\prj\goniat-online\trunk\doc\html
+03|06/25/09 16:01:01|Writing index data for JavaScript search... (Please wait)
+03|06/25/09 16:01:01|Dictionary written out to zoom_index.js
+03|06/25/09 16:01:01|Pagedata written out to zoom_pagedata.tmp
+03|06/25/09 16:01:01|Pageinfo written out to zoom_pageinfo.tmp
+03|06/25/09 16:01:01|Skip words data written out to zoom_index.js
+03|06/25/09 16:01:01|Created script settings file (settings.js)
+10|06/25/09 16:01:01|Indexing completed at Thu Jun 25 16:01:01 2009
+12|06/25/09 16:01:01|INDEX SUMMARY
+12|06/25/09 16:01:01|Files indexed: 11
+12|06/25/09 16:01:01|Files skipped: 53
+12|06/25/09 16:01:01|Files filtered: 0
+12|06/25/09 16:01:01|Files downloaded: 0
+12|06/25/09 16:01:01|Unique words found: 416
+12|06/25/09 16:01:01|Variant words found: 31
+12|06/25/09 16:01:01|Total words found: 1096
+12|06/25/09 16:01:01|Avg. unique words per page: 37.82
+12|06/25/09 16:01:01|Avg. words per page: 99
+12|06/25/09 16:01:01|Start index time: 16:01:00 (2009/06/25)
+12|06/25/09 16:01:01|Elapsed index time: 00:00:01
+12|06/25/09 16:01:01|Peak physical memory used: 45 MB
+12|06/25/09 16:01:01|Peak virtual memory used: 216 MB
+12|06/25/09 16:01:01|Errors: 0
+12|06/25/09 16:01:01|Total bytes scanned/downloaded: 61975
+12|06/25/09 16:01:01|File extensions: 
+12|06/25/09 16:01:01|    .htm indexed: 11
+02|06/25/09 16:01:01|Cleaning up memory used for index data... please wait.
+02|06/25/09 16:01:01|Finished cleaning up memory.
+08|06/25/09 16:01:01|Could not copy search script to: c:\dev\prj\goniat-online\trunk\doc\html\search.js
+08|06/25/09 16:01:03|Could not open source template file: C:\Program Files\EC Software\HelpAndManual5\Compilers\scripts\Javascript\search_src.html
+08|06/25/09 16:01:03|Failed to create search template file: c:\dev\prj\goniat-online\trunk\doc\html\search.html

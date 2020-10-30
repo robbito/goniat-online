@@ -1,0 +1,815 @@
+a:link {
+  text-decoration: none;
+  color: #008;
+}
+a:visited {
+  text-decoration: none;
+  color: #008;
+}
+a:hover {
+  text-decoration: underline;
+  color: #008;
+}
+a.litDelete, a.taxDelete, a.locDelete, a.figDelete, a.logDelete {
+	cursor: pointer;
+}
+body {
+  font-family: arial,helvetica,sans-serif;
+  font-size : 11pt;
+  margin-top : 5px;
+  background-color: #D5E0EC;
+  text-align: center;
+}
+div.header {
+  height: 105px;
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+}
+div.header > a {
+	display: block;
+	height: 100%;
+	width: 500px;
+}
+div.main {
+  position: relative;
+  width: 795px;
+  background-color: #FFF;
+  border: 10px solid #FFF;
+  margin: auto;
+  text-align: left;
+}
+div#geoSelectForm, div#catSelectForm {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+div#browse form, div#create form {
+	margin: 15px;
+	text-align: center;
+}
+div#browse table {
+	width: 100%;
+}
+div#search {
+  margin-top: 10px;
+}
+h2, h3 {
+  background-color: #F7EEEE;
+  margin: 0 0 4px 0;
+  font-size: 10pt;
+  padding: 0 2px 0 2px;
+}
+#intro h1,#terms h1 {
+	font-size: 16px;	
+}
+#terms h1 {
+	margin: 2px;
+	background-color: #ecc;
+	padding-left: 10px;
+	border-radius: 4px;
+}
+#terms {
+	margin-top: 15px;
+	border: 2px solid #b1353b;
+	border-radius: 6px;
+	padding: 0px;
+}
+#terms p {
+	margin: 0;
+	padding: 0 10px 10px 10px;
+}
+.tip {
+  display: inline;
+  font-size : 9pt;
+  font-style: italic;
+  color : #444;
+}
+div.Toolbar {
+  background-image: url(../img/toolbar.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 100%;
+  margin-top: -5px;
+  clear: both;
+}
+.ToolbarButton {
+  background-image: url(../img/button.png);
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 75px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: 8px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.TButtonLeft {
+  float: left;
+}
+.TButtonRight {
+  float: right;
+  margin-right: 8px;
+}
+li#verHist {
+	float: right;
+}
+#recTitle {
+	margin: 0.4em 0 0 0;
+	padding: 0.4em;
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #FFF7F7;
+	background-image: none;
+	color: #000;
+}
+#recArchive {
+	margin: 0.4em 0 0 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: crimson;
+}
+#recNo {
+  font-size: 9pt;
+  color: #444;
+  float: right;
+  font-weight: normal;
+}
+#tabBoxLow {
+	height: 360px;
+}
+#locLinkForm .hierLabel {
+	display: inline-block;
+	width: 75px;
+	color: #888;
+}
+#taxLinkForm .hierLabel {
+	display: inline-block;
+	width: 85px;
+	color: #888;
+}
+.ToolbarButton:hover {
+  font-weight: bold;
+}
+a.ToolbarButton {
+  text-decoration: none;
+  color: #000;
+}
+table.notes td {
+  padding: 1px;
+}
+table.lit,table.loc,table.tax,table.fig,table.geo,table.cat, table.acc, table.log {
+  border: 0;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+table.lit td,table.loc td,table.tax td,table.geo td,table.cat td, table.acc td, table.log td {
+  border-bottom: 1px solid #CA8E8E;
+  padding: 1px;
+}
+table.lit th,table.loc th,table.tax th,table.geo th,table.cat th, table.acc th, table.log th {
+  text-align: left;
+  padding: 1px;
+  border-top: 1px solid #CA8E8E;
+  border-bottom: 1px solid #CA8E8E;
+  background-color: #E8CECE;
+}
+table.lit td.link,table.loc td.link,table.tax td.link,table.geo td.link,table.cat td.link,table.taxSel td.link,table.litSel td.link,table.locSel td.link,table.autSel td.link,table.bndSel td.link,table.log td.link {
+  width: 20px;
+  background-color: #F7EEEE;
+  vertical-align: middle;
+  text-align: center;
+}
+table.acc button {
+  font-size: 8pt;
+}
+td.link img,a img {
+  border: 0;
+}
+table.lit td.authors {
+  width: 16%;
+  padding-left: 3px;
+}
+table.lit td.year {
+  width: 7%;
+}
+table.lit td.title {
+  width: 75%;
+}
+table.loc td.locality {
+  width: 60%;
+  padding-left: 3px;
+}
+table.loc td.layer {
+  width: 38%;
+}
+table.tax td.taxon {
+  width: 98%;
+  padding-left: 3px;
+}
+table.tax td.invalid,table.taxSel td.invalid,div.hierarchy .invalid,table.cat .invalid {
+  background-color: #FCC;
+}
+table.log td.timestamp {
+	width: 15%;
+}
+table.log td.type {
+	width: 15%;
+}
+table.log td.user {
+	width: 20%;
+}
+table.log td.table {
+	width: 20%;
+}
+span.qual {
+  color: #444;
+  font-size: 9pt;
+}
+table.geo td.type,table.cat td.type {
+  width: 10%;
+  padding-left: 3px;
+}
+table.geo td.name,table.cat td.name {
+  width:88%;
+}
+tr#qualifier td,tr#lowbound td,tr#valid td,tr#year td,tr#title td,tr#ref td,tr#keywords td {
+  border-top: 1px solid #CA8E8E;
+}
+table.record-content {
+  width: 100%;
+}
+table.record-content td {
+  padding: 1px;
+}
+table.record-content td.label {
+  width: 13%;
+  font-size: 9pt;
+  color: #444;
+  background-color: #F7EEEE;
+}
+table.record-content td.value {
+  padding-left: 6px;
+}
+table.record-content input,table.record-content textarea {
+  width: 450px;
+}
+input, textarea {
+  border: 1px solid #AAA;
+}
+table.record-content input.short {
+  width: 225px;
+}
+table.record-content input.veryshort {
+  width: 112px;
+}
+input#pages {
+  width: 150px;
+}
+span.recCount {
+  font-weight: normal;
+  font-size: 9pt;
+  color: #444;
+}
+table.features, table.featuresInner {
+  width: 100%;
+  font-size: 10pt;
+}
+td.featGroup {
+  border-top: 1px solid #CA8E8E;
+  border-bottom: 1px solid #CA8E8E;
+  background-color: #F7EEEE;
+  font-weight: bold;
+}
+td.featLabel {
+  width: 105px;
+  font-size: 9pt;
+  padding-left: 2px;
+  color: #444;
+  background-color: #F7EEEE;
+  border-top: 1px solid #F7EEEE;
+  border-bottom: 1px solid #F7EEEE;
+}
+table.featuresInner td.featLabel {
+  width: 190px;
+}
+td.featValue,td.featValueMulti {
+  width: 60px;
+  padding-left: 4px;
+  border-top: 1px solid #F7EEEE;
+  border-bottom: 1px solid #F7EEEE;
+}
+td.featValueMulti {
+  padding: 0;
+}
+table.featuresInner td.featValue {
+  width: 20px;
+}
+table.featuresInner td.featValueLong {
+  width: 200px;
+}
+td.featFill {
+  background-color: #F7EEEE;
+  border-bottom: 2px solid #F7EEEE;
+}
+td.featGap {
+  width: 15px;
+  background-color: #F7EEEE;
+  border-bottom: 2px solid #F7EEEE;
+}
+td.featValueMulti table {
+  width: 100%;
+  font-size: 10pt;
+}
+td.featValueMulti td {
+  width: 20px;
+  text-align: center;
+  border-left: 1px solid #F7EEEE;
+  border-right: 1px solid #F7EEEE;
+}
+td.featValueMulti td.empty {
+  background-color: #F7EEEE;
+}
+td.featValueMulti td.emptyB {
+  background-color: #fbf6f6;
+}
+td.featValue input {
+	border: 1px solid #CA8E8E;
+	width: 100%;
+	padding: 0 0 0 4px;
+	margin: 0 0 0 -4px;
+}
+td.featValueMulti input {
+	border: 1px solid #CA8E8E;
+	width: 20px;
+	padding: 0 1px 0 1px;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+#taxMorphForm td.featValueMulti td.empty {
+	width: 24px;
+}
+table.fig {
+  display: inline;
+  height: 226px;
+  width: 150px;
+  margin: 4px;
+  text-align: center;
+}
+table.fig td.caption {
+  border-left: 1px solid #CA8E8E;
+  border-right: 1px solid #CA8E8E;
+  border-bottom: 1px solid #CA8E8E;
+  text-align: left;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 10pt;
+}
+table.fig td.img {
+  border: 1px solid #CA8E8E;
+  padding: 2px;
+}
+table.fig img {
+  height:205px;
+}
+table.fig div.zoom {
+  float: right;
+}
+a.figDelete img {
+	width: 12px;
+	height: 12px;
+}
+div#stats td, div#news td, div#docs td {
+  font-size: 10pt;
+}
+div#news, div#docs {
+  margin-top: 10px;
+}
+div#login {
+  margin: 13px 5px 0 0;
+  width: 183px;
+  height: 70px;
+  float: right;
+  font-size: 8pt;
+  background-image: none;
+  background-color: transparent;
+}
+div#login label {
+	display: inline-block;
+	width: 55px;
+}
+div#login input[type="text"],div#login input[type="password"] {
+	width: 117px;
+	margin: 2px 0 2px 0;
+}
+div#login button.submit {
+  font-size: 8pt;
+  height: 14pt;
+  margin-top: 2px;
+  float: right;
+  line-height: 10px;
+}
+button.submit img {
+	vertical-align: bottom;
+}
+div#login span.user {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+div#login .errorMsg {
+  display: inline-block;
+  padding-top: 5px;
+  color: #F22;
+  font-weight: bold;
+}
+#accountMenu {
+	position: absolute;
+	z-index: 100;
+	width: 120px; 
+}
+.justify-left {
+	text-align: left;
+}
+.justify-top {
+	vertical-align: top;
+	margin-top: 4px;
+}
+.span-40 {
+	display: inline-block;
+	width: 40px;
+}
+.offset-40 {
+	margin-left: 40px;
+}
+.span-80 {
+	display: inline-block;
+	width: 80px;
+}
+.offset-80 {
+	margin-left: 80px;
+}
+.span-120 {
+	display: inline-block;
+	width: 120px;
+}
+.span-160 {
+	width: 160px;
+}
+.span-200 {
+	display: inline-block;
+	width: 200px;
+}
+.span-240 {
+	display: inline-block;
+	width: 240px;
+}
+.span-280 {
+	display: inline-block;
+	width: 280px;
+}
+.span-320 {
+	display: inline-block;
+	width: 320px;
+}
+#taxonHierarchy, #locHierarchy {
+	height: auto;
+	min-height: 20px;
+	border: 1px solid #ddd;
+	margin-top: .2em;
+	padding: 1px;
+}
+div#search form {
+  margin: 0;
+  padding: 0;
+}
+div#search div.collapsed {
+  height: 18px;
+}
+div#search div.collapsed table {
+  display: none;
+}
+div#search div.group {
+  overflow: hidden;
+  border: 1px solid #CA8E8E;
+  margin-bottom: 5px;
+}
+div.group table {
+  width: 99%;
+  border: 4px solid white;
+}
+div.group td {
+  padding: 1px;
+}
+div.group input,div.group select {
+  border: 1px solid #CA8E8E;
+}
+div#search div.submit {
+  text-align: center;
+  margin: 14px 0 5px 0;
+}
+div#search input.submit {
+  width: 150px;
+}
+div#searchCat td.type,div#searchGeo td.type {
+  text-align: left;
+  width: 115px;
+}
+div#searchCat select.type,div#searchGeo select.type {
+  width: 110px;
+}
+div#searchCat input.name {
+  width: 200px;
+}
+div#searchGeo input.name {
+  width: 200px;
+}
+div.group td.label {
+  width: 80px;
+}
+div#searchTaxNo td.label,div#searchLitNo td.label,div#searchLocNo td.label {
+  width: 80px;
+}
+div#searchTaxStrat td.label, div#searchLocStrat td.label {
+  width: 120px;
+}
+div#searchTaxNo input,div#searchLitNo input,div#searchLocNo input {
+  width: 80px;
+}
+div#searchTaxStrat input,div#searchLocStrat input
+{
+  width: 140px;
+}
+div#searchAut input {
+  width: 170px;
+}
+div#searchAut input.year {
+  width: 80px;
+}
+div#searchTitle input,div#searchKey input {
+  width: 250px;
+}
+div.status {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/minus.png);
+  background-repeat: no-repeat;
+  float:left;
+  margin-right: 4px;
+}
+div#search div.collapsed div.status,div.hierarchy div.collapsed div.status {
+  background-image: url(../img/plus.png);
+}
+div#search h3,div.hierarchy div.status {
+  cursor: pointer;
+}
+div.hierarchy div.children {
+  clear: left;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+div.hierarchy {
+  margin: 10px;
+}
+div.hierarchy div.collapsed div.children {
+  display: none;
+}
+div.hierarchy h2 {
+  background-color: #FFF;
+  font-size: 10pt;
+  font-weight: normal;
+}
+div.hierarchy .tools, .autSel .tools, .bndSel .tools, .tax .tools, .lit .tools, .loc .tools, .geo .tools,.cat .tools {
+  display: inline;
+  float: right;
+}
+div.hierarchy button {
+	vertical-align: top;
+	height: 14px;
+	font-size: 11px;
+	padding: 0 2px 0 2px;
+	margin: 1px;
+	border-width: 2px;
+	line-height: 10px;
+}
+#geoHierarchy .edit-toolbar, #catHierarchy .edit-toolbar {
+  margin-bottom: 5px;
+}
+.autSel button, .bndSel button, .tax button, .lit button,.loc button,.geo button,.cat button {
+	vertical-align: top;
+	height: 18px;
+	font-size: 12px;
+	padding: 0 2px 0 2px;
+	margin: 1px 6px 1px 1px;
+	border-width: 2px;
+	line-height: 10px;
+}
+div.notes {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.edit-toolbar {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #BBBBBB;
+    overflow: auto;
+    padding: 3px 4px;
+}
+.edit-toolbar .buttons, div.notes .jqte_toolbar .buttons {
+	float: right;
+}
+div.notes .content {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+div.notes .jqte {
+	width: 100%;
+	height: 100%;
+}
+div.notes .jqte_editor {
+	resize: none;
+}
+div.editContainer, div.figEditContainer {
+	height: 100%;
+}
+div.editContainer table, div.figEditContainer div.table {
+	display: block;
+	overflow: auto;
+	height: 286px;
+	width: 100%;
+}
+div.editContainer span.recCount,div.figEditContainer span.recCount {
+	display: none;
+}
+td.col-right {
+  padding-left: 10px;
+  vertical-align: top;
+  width: 200px;
+}
+table.litSel td.authors,table.taxSel td.taxon,table.locSel td.geo, table.autSel td.name,table.bndSel td.millYears,table.bndSel td.name {
+  border-top: 1px solid #CA8E8E;
+  font-weight: bold;
+}
+table.litSel td.authors,table.litSel td.title,table.litSel td.ref,table.taxSel td.taxon,table.taxSel td.authors,table.locSel td.geo,table.locSel td.layer,table.autSel td.name,table.bndSel td.millYears {
+  padding-left: 3px;
+}
+table.litSel td.link,table.taxSel td.link,table.locSel td.link,table.autSel td.link,table.bndSel td.link,table.bndSel td.type {
+  border-top: 1px solid #CA8E8E;
+}
+table.litSel td.ref, table.lit .ref {
+  font-size: 9pt;
+  color: #666;
+}
+
+#createAccount, #editAccount {
+	line-height: 30px;
+}
+#createAccount label, #editAccount label {
+	display: inline-block;
+	width: 80px;
+}
+#createAccount button, #editAccount button {
+	float: right;
+}
+
+ul.ui-autocomplete .ui-menu-item a {
+	border-radius: 0;
+}
+ul.ui-autocomplete .ui-menu-item a.ui-state-focus {
+	border-width: 1px;
+}
+ul.ui-autocomplete {
+	border: 1px solid rgb(202, 142, 142);
+	text-align: left;
+	border-radius: 0;
+	height: 130px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.box {
+	padding: 0.2em;
+	overflow: hidden;
+}
+.load-indicator {
+	width: 100%;
+	font-size: 16pt;
+	text-align: center;
+	padding-top: 50px;
+}
+ul.ui-autocomplete span.ui-autocomplete-queried {
+	font-weight: bold;
+}
+div.print h1 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+div.print h2
+{
+  margin-top: 14px;
+  font-size: 12pt;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  background-color: #FFF;
+}
+div.print td.label {
+  width: 13%;
+  font-size: 9pt;
+  color: #444;
+  background-color: #EEE;
+}
+div.print tr#qualifier td,div.print tr#lowbound td,div.print tr#valid td,div.print tr#year td,div.print tr#title td,div.print tr#ref td,div.print tr#keywords td {
+  border-top: 1px solid #888;
+}
+div.print a,div.print .edit-toolbar {
+  display: none;
+}
+div.print table.features,div.print table.featuresInner {
+  border-spacing: 1px;
+}
+div.print table.features tr {
+  margin-bottom: 1px;
+}
+div.print td.featLabel {
+  background-color: #FFF;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+div.print td.featGroup {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  background-color: #EEE;
+}
+div.print td.featFill,div.print td.featGap {
+  background-color: #FFF;
+  border-bottom: 2px solid #FFF;
+}
+div.print td.featValue {
+  border: 1px solid #888;
+}
+div.print td.featValueMulti table {
+  width: 65px;
+}
+div.print td.featValueMulti {
+  border: 1px solid #777;
+  border-left-width: 0;
+}
+div.print td.featValueMulti td {
+  border-left: 1px solid #888;
+  border-right-width: 0;
+  width: 33%;
+}
+div.print td.featValueMulti td.empty {
+  background-color: #FFF;
+}
+div.print div.Relations td {
+  border-bottom: 1px solid #888;
+}
+div.print div.Relations th {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  background-color: #DDD;
+}
+div.print div.Relations td.link {
+  background-color: #FFF;
+}
+div.print table.fig td {
+  border-color: #888;
+}
+div#printSettings {
+  position:absolute;
+  top:20px;
+  right:20px;
+  width:200px;
+  border:1px solid #000;
+  background-color:#EEE;
+  padding: 5px;
+}
+div.print div.hide, div.print div#login {
+  display: none;
+}
+div.print div.PrintSection {
+  page-break-inside: avoid;
+}
+div.print div.PrintSection * {
+  page-break-inside: avoid;
+}
+div.print td.invalid {
+  background-color: #EEE;
+}
+div.print table.Empty {
+  height: auto;
+}
+div.print table.Empty td {
+  border-bottom: 0px;
+}
+@media print {
+  .NoPrint {
+    display: none;
+  }
+  body {
+    background-color: #FFF;
+	text-align: left;
+  }
+}

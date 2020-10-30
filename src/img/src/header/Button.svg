@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="75.925537"
+   height="25.020376"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\kullmann\Desktop\Goniat"
+   sodipodi:docname="Button.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="C:\dev\prj\goniat-online\trunk\img\toolbar.png"
+   inkscape:export-xdpi="89.722984"
+   inkscape:export-ydpi="89.722984">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3247">
+      <stop
+         id="stop3249"
+         offset="0"
+         style="stop-color:#8b0000;stop-opacity:1;" />
+      <stop
+         id="stop3251"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0.02222222;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3233">
+      <stop
+         id="stop3235"
+         offset="0"
+         style="stop-color:#eabebe;stop-opacity:0.76111114;" />
+      <stop
+         style="stop-color:#eabebe;stop-opacity:0.76111114;"
+         offset="0.2"
+         id="stop3237" />
+      <stop
+         id="stop3239"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3219">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3221" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3223" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 54 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="802.46997 : 54 : 1"
+       inkscape:persp3d-origin="401.23499 : 36 : 1"
+       id="perspective32" />
+    <linearGradient
+       id="linearGradient2768">
+      <stop
+         style="stop-color:#eabebe;stop-opacity:1;"
+         offset="0"
+         id="stop2770" />
+      <stop
+         id="stop3231"
+         offset="0.5"
+         style="stop-color:#eabebe;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#eabebe;stop-opacity:0;"
+         offset="1"
+         id="stop2772" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="linearGradient3241"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998811,0,0,1.1266219,-5.524781e-3,-25.627998)"
+       x1="234.01436"
+       y1="171.25751"
+       x2="233.84917"
+       y2="136.28267" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3247"
+       id="linearGradient3243"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998811,0,0,1.1266219,-5.524781e-3,-25.627998)"
+       x1="234.01436"
+       y1="171.25751"
+       x2="233.84917"
+       y2="136.28267" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.42"
+     inkscape:cx="29.352835"
+     inkscape:cy="35.016762"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     width="802.47px"
+     height="108px"
+     inkscape:showpageshadow="false"
+     showgrid="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1;display:inline"
+     transform="translate(51.867369,-193.10846)">
+    <rect
+       style="opacity:0.63636361;fill:url(#linearGradient3241);fill-opacity:1;stroke:url(#linearGradient3243);stroke-width:1.64741862;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       id="rect3199"
+       width="800.81891"
+       height="39.76741"
+       x="-57.313519"
+       y="126.67272"
+       ry="8.5714283"
+       rx="8.5714283" />
+    <rect
+       style="opacity:1;fill:#e9afaf;fill-opacity:1;stroke:#8b0000;stroke-width:2.09305215;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.65384617;display:inline"
+       id="rect2425"
+       width="73.832481"
+       height="22.927324"
+       x="-50.820843"
+       y="194.15498"
+       ry="5.9398494"
+       rx="5.9398494"
+       inkscape:export-filename="C:\dev\prj\goniat-online\trunk\img\button.png"
+       inkscape:export-xdpi="89"
+       inkscape:export-ydpi="89" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Grafik1"
+     style="opacity:1;display:inline"
+     transform="translate(51.867369,-193.10846)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Grafik2"
+     style="opacity:0.35483871;display:inline"
+     transform="translate(51.867369,-193.10846)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text"
+     style="display:inline"
+     transform="translate(51.867369,-193.10846)" />
+</svg>
