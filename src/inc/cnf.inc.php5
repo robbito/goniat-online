@@ -14,26 +14,25 @@
  * the database host address
  */
 
-//define('DEFAULT_DBHOST','62.141.58.83');
-define('DEFAULT_DBHOST','localhost');
+define('DEFAULT_DBHOST', $_ENV['DB_HOST']);
 
 /**
  * the database name
  */
 
-define('DEFAULT_DBNAME','db22572x551103');
+define('DEFAULT_DBNAME', $_ENV['DB_NAME']);
 
 /**
  * the database user name
  */
 
-define('DEFAULT_DBUSER','goniat-access');
+define('DEFAULT_DBUSER', $_ENV['DB_USER']);
 
 /**
  * the database password
  */
 
-define('DEFAULT_DBPASSWORD','goniat01');
+define('DEFAULT_DBPASSWORD', $_ENV['DB_PASSWORD']);
 
 /**
  * Email address for sending error messages
