@@ -1,4 +1,5 @@
 docker
-src/bak
+bak
 src/cnf
 src/doc
+*.sh

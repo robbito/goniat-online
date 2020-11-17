@@ -1,5 +1,6 @@
+Addhandler application/x-httpd-php .php5
 RewriteEngine On
-RewriteBase /goniat
+# RewriteBase /goniat
 RewriteRule  ^\.htaccess$ - [F]
 RewriteRule  ^sitemap\.xml$ sitemap.php5
 RewriteRule  ^sitemap_geo\.xml$ sitemap_geo.php5

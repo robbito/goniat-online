@@ -110,15 +110,10 @@
 <div id="news" class="box ui-widget ui-widget-content ui-corner-all">
 <h2>News</h2>
 GONIAT online is being updated continuously. Look out for new features.<br /><br />
-<h3>Aug 2018</h3>
-<div style="border: 2px solid black; margin: 2px;text-align: center;padding: 2px;">
-<div style="font-size: small;padding-bottom: 3px;">In memoriam</div>
-<span style="font-weight: bold">Prof. Dr. Jürgen Kullmann</span><br />
-&#x271D; Aug 21nd 2018
-</div>
-<h3>Mar 2015</h3>
+<h3>Nov 2020</h3>
 <ul style="margin:0;padding-left:18px;">
-	<li>New field 'Link' for literature and 'Georefrence' for localities.</li>
+	<li>The GONIAT online source code is now available on Github.</li>
+	<li>The new setup with docker allows for easy installation in a server environment or locally.</li>
 </ul>
 </div>
 

@@ -31,12 +31,12 @@ class Database
 	 */
 	private function __construct($arg_host, $arg_username, $arg_password, $arg_dbname)
 	{
-		$this->db = mysql_pconnect($arg_host,$arg_username,$arg_password);
+		$this->db = mysqli_connect("p:".$arg_host,$arg_username,$arg_password);
 		if ($this->db === false) {
-			throw new GonDatabaseException(array('MySQL error message' => 'mysql_pconnect failed'));
+			throw new GonDatabaseException(array('MySQL error message' => 'mysqli_connect failed'));
 		}
-		mysql_select_db($arg_dbname,$this->db);
-		mysql_query("SET CHARACTER SET 'utf8'", $this->db);
+		mysqli_select_db($this->db, $arg_dbname);
+		mysqli_query($this->db, "SET CHARACTER SET 'utf8'");
 	}
 
 	/**
@@ -49,13 +49,13 @@ class Database
 	 */
 	private function reconnect($arg_host = DEFAULT_DBHOST, $arg_username = DEFAULT_DBUSER, $arg_password = DEFAULT_DBPASSWORD, $arg_dbname = DEFAULT_DBNAME)
 	{
-		mysql_close($this->db);
-		$this->db = mysql_pconnect($arg_host,$arg_username,$arg_password);
+		mysqli_close($this->db);
+		$this->db = mysqli_connect("p:".$arg_host,$arg_username,$arg_password);
 		if ($this->db === false) {
-			throw new GonDatabaseException(array('MySQL error message' => 'mysql_pconnect failed'));
+			throw new GonDatabaseException(array('MySQL error message' => 'mysqli_connect failed'));
 		}
-		mysql_select_db($arg_dbname,$this->db);
-		mysql_query("SET CHARACTER SET 'utf8'", $this->db);
+		mysqli_select_db($this->db, $arg_dbname);
+		mysqli_query($this->db, "SET CHARACTER SET 'utf8'");
 	}
 
 	/**
@@ -79,20 +79,20 @@ class Database
 			$query = $this->getQueryString($arg_query, $arg_paramList);
 		}
 
-		if (mysql_ping($this->db) == FALSE) {
+		if (mysqli_ping($this->db) == FALSE) {
 			$this->Reconnect();
 		}
 
-		$result = mysql_query($query,$this->db);
+		$result = mysqli_query($this->db, $query);
 
-		if ( $result===false || mysql_errno($this->db) ) {
-			throw new GonDatabaseException(array(	'MySQL error code'	=> mysql_errno($this->db),
-			                                 		'MySQL error text'	=> mysql_error($this->db),
+		if ( $result===false || mysqli_errno($this->db) ) {
+			throw new GonDatabaseException(array(	'MySQL error code'	=> mysqli_errno($this->db),
+			                                 		'MySQL error text'	=> mysqli_error($this->db),
 			                               	   		'MySQL query'       => is_null($arg_paramList)
 			                               	                             	? $arg_query
 			                               	                             	: self::getQueryString($arg_query, $arg_paramList),
 			                               	   		'query string'		=> $arg_query,
-			                                   		'parameter list'	=> $arg_paramList ),mysql_errno($this->db) );
+			                                   		'parameter list'	=> $arg_paramList ),mysqli_errno($this->db) );
 		} // if
 
 		return new QueryResult($result);
@@ -146,7 +146,7 @@ class Database
 	 */
 	public function real_escape_string($arg_string)
 	{
-		return mysql_real_escape_string($arg_string,$this->db);
+		return mysqli_real_escape_string($this->db, $arg_string);
 	}
 
 	/**
@@ -162,12 +162,12 @@ class Database
 		if ( is_null(self::$singelton) ) {
 			self::$singelton = new Database(DEFAULT_DBHOST, $arg_username, $arg_password, DEFAULT_DBNAME);
 			// Errors cause an exception.
-			if ( mysql_errno(self::$singelton->db) ) {
+			if ( mysqli_errno(self::$singelton->db) ) {
 				throw new GonDatabaseException(array(	'MySQL host'		=> DEFAULT_DBHOST,
 				                              			'MySQL user'		=> $arg_username,
 				                            	     	'MySQL database'	=> DEFAULT_DBNAME,
-				                            	     	'MySQL error code'	=> mysql_errno(self::$singelton->db),
-				                            	      	'MySQL error text'	=> mysql_error(self::$singelton->db) ),mysql_errno(self::$singelton->db) );
+				                            	     	'MySQL error code'	=> mysqli_errno(self::$singelton->db),
+				                            	      	'MySQL error text'	=> mysqli_error(self::$singelton->db) ),mysqli_errno(self::$singelton->db) );
 			} // if
 		} // if
 		// Everything is ok, database object is returned.
@@ -215,7 +215,7 @@ class QueryResult
 	public function __get($arg_attribute)
 	{
 		if ($arg_attribute == 'num_rows')
-			return mysql_num_rows($this->result);
+			return mysqli_num_rows($this->result);
 		return null;
 	}
 
@@ -224,7 +224,7 @@ class QueryResult
 	 */
 	public function fetch_row()
 	{
-		return mysql_fetch_row($this->result);
+		return mysqli_fetch_row($this->result);
 	}
 }
 
