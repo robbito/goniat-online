@@ -2,6 +2,7 @@ docker
 bak
 src/cnf
 src/doc
+src/util
 src/jquery*
 *.sh
 README.md
