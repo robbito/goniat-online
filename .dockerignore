@@ -1,7 +1,8 @@
 docker
 bak
 src/cnf
-src/doc
+src/doc/*.eap
+src/doc/*.hmxz
 src/util
 src/jquery*
 *.sh
