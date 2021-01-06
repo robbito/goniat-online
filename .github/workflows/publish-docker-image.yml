@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./docker/Dockerfile
           pull: true
           push: true
           cache-from: type=registry,ref=robbito/goniat-online:latest
