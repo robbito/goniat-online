@@ -5,4 +5,4 @@ RewriteRule  ^sitemap\.xml$ sitemap.php5
 RewriteRule  ^sitemap_geo\.xml$ sitemap_geo.php5
 RewriteRule  ^sitemap_lit\.xml$ sitemap_lit.php5
 RewriteRule  ^(.+)\.html$ $1.php5
-DirectoryIndex index.html
+DirectoryIndex index.php5
