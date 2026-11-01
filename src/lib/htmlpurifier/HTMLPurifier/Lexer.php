@@ -143,6 +143,8 @@ class HTMLPurifier_Lexer
         $this->_entity_parser = new HTMLPurifier_EntityParser();
     }
 
+    protected $_entity_parser;
+
     /**
      * Most common entity to raw value conversion table for special entities.
      */

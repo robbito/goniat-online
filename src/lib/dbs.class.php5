@@ -40,25 +40,6 @@ class Database
 	}
 
 	/**
-	 * Database reconnection.
-	 *
-	 * @param String $arg_host      Name of the database server
-	 * @param String $arg_username  User name for accessing the database
-	 * @param String $arg_password  Pass word for the database access
-	 * @param String $arg_dbname    Name of the database
-	 */
-	private function reconnect($arg_host = DEFAULT_DBHOST, $arg_username = DEFAULT_DBUSER, $arg_password = DEFAULT_DBPASSWORD, $arg_dbname = DEFAULT_DBNAME)
-	{
-		mysqli_close($this->db);
-		$this->db = mysqli_connect("p:".$arg_host,$arg_username,$arg_password);
-		if ($this->db === false) {
-			throw new GonDatabaseException(array('MySQL error message' => 'mysqli_connect failed'));
-		}
-		mysqli_select_db($this->db, $arg_dbname);
-		mysqli_query($this->db, "SET CHARACTER SET 'utf8'");
-	}
-
-	/**
 	 * Query definition and parameter replacement.
 	 *
 	 * Since queries are defined as constants in a separate file, parameters must
@@ -77,10 +58,6 @@ class Database
 		$query = $arg_query;
 		if (!is_null($arg_paramList)) {
 			$query = $this->getQueryString($arg_query, $arg_paramList);
-		}
-
-		if (mysqli_ping($this->db) == FALSE) {
-			$this->Reconnect();
 		}
 
 		$result = mysqli_query($this->db, $query);
